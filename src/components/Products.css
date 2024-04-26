@@ -1,0 +1,45 @@
+.products{
+    
+    width: 100%;
+    display: flex;
+    
+ 
+}
+ 
+.products ul{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax( 160px, 1fr )
+    );
+    gap: 1.5rem;
+    margin: 3% auto;
+    
+    max-width: 700px;
+    width: 100%;
+}
+ 
+.products li{
+    display: flex;
+    flex-direction: column;
+    justify-content: ce;
+
+    gap: 1rem;
+    box-shadow: 0 0 10px 10px rgb(243, 255, 172);
+    border-radius: 5px;
+    background: #005854;
+    color: #fff;
+    padding: 1rem;
+}
+
+.products img {
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 14/9;
+    display: block;
+    object-fit: fill;
+    background: #fff;
+}
+
+
+
